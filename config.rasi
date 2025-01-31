@@ -148,7 +148,7 @@ configuration {
       directories-first: true;
       sorting-method:    "name";
   }
-  combi-modes: [window,drun];
+  combi-modes: [window,drun,run];
   kb-accept-entry: "Return,KP_Enter";
   kb-remove-to-eol: "";
   kb-row-down: "Down,Control+j";
@@ -224,7 +224,7 @@ element {
 }
 
 element-icon {
-    size: 2em;
+    size: 1.5em;
 }
 
 element-text {
